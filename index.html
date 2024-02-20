@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wearable Assistive Technologies</title>
+    <link rel="stylesheet" href="https://unpkg.com/latex.css/style.min.css" />
+</head>
+<body class="libertinus" id="top" style="max-width: 120ch;">
+
+<h1>
+Wearable Assistive Technologies
+</h1>
+
+<p class="author">Kevin Guo, VMS IV<br>February 2024</p>
+
+<div class="abstract">
+    <h2>Healthy Aging Quality Dying ISC Enduring Educational Resource</h2>
+    <p>An overview of wearable assistive technologies with several selected examples of devices that have the potential to be used in older adults, case studies, and impact of such devices on patient and caregiver metrics. </p>
+</div>
+
+<hr>
+<nav role="navigation" class="toc">
+    <h2>Contents</h2>
+    <ol>
+        <li><a href="#intro">Introduction</a></li>
+        <li><a href="#id">Medical IDs</a></li>
+        <li><a href="#monitor">Wearable Monitors</a></li>
+        <li><a href="#falls">Application: Falls</a></li>
+        <li><a href="#summary">Summary</a></li>
+        <li><a href="#ref">References</a></li>
+    </ol>
+</nav>
+<br>
+<hr>
+<div id="intro">
+    <h2>Introduction</h2>
+
+    <h4>What are Assistive Technologies?</h4>
+    Assistive technologies are physical or virtual tools that can help people with disabilities improve functional status.
+
+    A wide variety of technologies (including analog/low-tech products) have been well-established for use in patients with various functional impairments, including communication boards, text-to-speech software, canes/walkers/wheelchairs, pillboxes, and to-do/reminder lists. Older people are one particular population who stand to benefit from innovation in the assistive technology space as they often experience functional impairment associated with aging, medical comorbidity, and loss of independence in performing activities of daily living (ADLs).
+
+    <br><br>
+    <figure style="margin: auto;">
+        <div style="display: flex;">
+            <div style="flex: 33.33%; padding: 5px;"><img src="images/communication board.jpg"></div>
+            <div style="flex: 33.33%; padding: 5px;"><img src="images/grabber.jpeg"></div>
+            <div style="flex: 33.33%; padding: 5px;"><img src="images/shopping_list.jpg"></div>
+        </div>
+        <figcaption>
+            <small>Examples of low-tech assistive technologies.<label for="sn-i1" class="sidenote-toggle"><sup>image sources</sup></label> From left to right: communication board, reacher-grabber tool, shopping list.</small>
+            <input type="checkbox" id="sn-i1" class="sidenote-toggle" />
+            <span class="sidenote">
+                Excerpt of ICU Delirium Communication Board from <a href="https://www.icudelirium.org/resource-downloads/icu-communication-board">icudelirium.org</a>.
+                Grabber tool from <a href="https://www.amazon.com/Grabber-Reacher-Tool-Foldable-Wheelchair/dp/B07TKJF4WY">Amazon</a> listing.
+                Shopping list from <a href="https://unsplash.com">unsplash.com</a>.
+            </span>
+        </figcaption>
+    </figure>
+    <br>
+
+    Many examples are specialized equipment/software, but assistive technology can even include a smartphone alarm app on to remind a patient to take medications at regular times or a calendar app to keep track of appointments/commitments in patients with memory difficulties.
+    <br><br>
+    Caregivers and medical teams can also take advantage of assistive technologies. Technology can help alleviate caregiver burden by automating or assisting with some tasks without the need for an additional person and medical professionals may be able to get realtime monitoring data that can help guide management.<label for="sn-ref1" class="sidenote-toggle"><sup>1</sup></label>
+    <input type="checkbox" id="sn-ref1" class="sidenote-toggle" />
+    <span class="sidenote">
+A 2015 <a href="https://doi.org/10.3109/17483107.2015.1087061">meta-analysis</a> concluded that assistive technologies (of many types) reduced caregiver anxiety, time spent caregiving, and increased both caregiver and patient independence, but with the caveat that some technologies may actually contribute to burden if difficult to learn or provide additional work.
+    </span>
+    <h4>What are Wearables?</h4>
+    Wearable technologies are devices that are built to be carried on the person and often take the form of smartwatches, rings, wristbands, necklaces, biosensor stickers. If used for medical purposes, they can be regulated as medical devices by the FDA.
+
+    <br><br>
+    <figure style="margin: auto;">
+        <div style="display: flex;">
+            <div style="flex: 33.33%; padding: 5px;"><img src="images/apple watch.png"></div>
+            <div style="flex: 33.33%; padding: 5px;"><img src="images/life alert.png"></div>
+            <div style="flex: 33.33%; padding: 5px;"><img src="images/oura.jpeg"></div>
+        </div>
+        <figcaption>
+            <small>Examples of wearable devices. From left to right: <a href="https://support.apple.com/en-us/HT208955">Apple Watch</a>, <a href="https://www.lifealert.com">Life Alert</a>, <a href="http://ouraring.com">Oura smart ring</a>.</small>
+        </figcaption>
+    </figure>
+    <br>
+
+    <h4>Wearable Device Considerations</h4>
+    Even though wearable medical devices have many promising use cases, there are also several considerations that may limit their adoption.<label for="sn-ref2" class="sidenote-toggle"><sup>2</sup></label>
+
+    <input type="checkbox" id="sn-ref2" class="sidenote-toggle" />
+    <span class="sidenote">
+        Source: Canali S, Schiaffonati V, Aliverti A. <a href="https://doi.org/10.1371/journal.pdig.0000104">Challenges and recommendations for wearable devices in digital health: Data quality, interoperability, health equity, fairness.</a> <i>PLOS Digit Health</i>.
+    </span>
+
+    They may be expensive and require the purchase of specialized equipment with potential maintenance costs, though many are eligible to be purchased with FSA/HSA funds. On-boarding and patient/caregiver education for new technology may be difficult as well, especially as older adults may not be as tech-savvy.
+
+    Wearing a physical device for even some part of the day may feel unnatural or take time to get used to.
+
+    Finally, while not all wearables may need to be designated as medical devices in order to be useful, those that do have an additional administrative/regulatory hurdle and data accuracy/reliability may be hit or miss depending on the specific manufacturer.
+</div>
+<br><a href="#top" style="text-decoration:none; float:right"><u>Back to Top</u></a><br><hr>
+<div id="id">
+    <h2>Wearable Medical Identification Devices</h2>
+    A very simple form of wearable technology is a wearable medical ID.
+
+    This is oftentimes in the form of a bracelet or necklace that the patient wears and commonly include patient identifiers, emergency contact information, and special medical diagnoses.
+    <br><br>
+    <figure style="margin: auto;">
+        <img src="images/medicalert.png" width="80%">
+        <figcaption>
+            <small>Example <a href="https://www.medicalert.org.uk/what-is-a-medical-id/">MedicAlert</a> bracelet. MedicAlert also maintains a registry of patients that can be accessed over the phone or online for additional data.</small>
+        </figcaption>
+    </figure>
+    <br>
+
+    In older adults, it can be helpful to identify a patient if they are not oriented at baseline or suffer sudden mental status declines, allowing for additional independence while reducing the need for a caregiver to always be present in case the patient cannot be identified.
+    <br><br>
+    Wearable medical IDs are already implemented routinely in the healthcare setting (and are probably the single wearable medical device with the highest uptake in general) — wristbands with name, date of birth, and location/provider for patients during intake for outpatient or inpatient visits.
+    <br><br>
+    <figure style="margin: auto;">
+        <img src="images/pt-wristband.jpeg" width="40%">
+        <figcaption>
+            <small>Example patient wristband containing name, date of birth, provider, admit date, and barcode/QR code.</small>
+        </figcaption>
+    </figure>
+    <br>
+    Historically, they were designed to be worn on the wrist so that they would be in view when taking the radial pulse.
+
+    Most modern smartphones also have medical ID technology enabled.
+    <br><br>
+    <figure style="margin: auto;">
+        <img src="images/iphone-medical-id.png" width="30%">
+        <figcaption>
+            <small>iPhone medical ID interface. Original image and more information available on <a href="https://support.apple.com/en-us/105072">Apple</a> website.</small>
+        </figcaption>
+    </figure>
+    <br>
+    Since these bracelets are low tech, they can be very affordable.<label for="sn-cost1" class="sidenote-toggle"><sup>*</sup></label>
+    <input type="checkbox" id="sn-cost1" class="sidenote-toggle" />
+    <span class="sidenote">
+        A Google search for medical identification bracelets shows many options for less than $50 (including text engraving), with optional $20-100 a year subscription to maintain online records.
+    </span>
+    Some services offer subscription plans that come with an emergency contact number that medical personnel or caregivers can call for additional patient information or assistance.
+
+    <br><br>
+
+    Medical identification bracelets have several limitations, mostly stemming from the lack of regulation or standardization.<label for="sn-ref3" class="sidenote-toggle"><sup>3</sup></label><br><br>
+
+    <input type="checkbox" id="sn-ref3" class="sidenote-toggle" />
+    <span class="sidenote">
+        A 2017 <a href="https://associationofanaesthetists-publications.onlinelibrary.wiley.com/doi/full/10.1111/anae.13958">review article</a> on medical identification devices brought up several of these issues including the example of "allergy to anesthesia" vs. "malignant hyperthermia."
+
+        In the latter case, there is a clear actionable change based on the diagnosis, but the former case is unclear as to what the clinical significance is but leaves room for liability both if a provider decides to act on (or not act on) the information.
+    </span>
+
+    Since most vendors sell directly to individuals and the buyer determines what information is engraved or included, they are prone to potentially false or unhelpful information that may be difficult to interpret without context.
+
+    These devices are meant to be used when the patient is unable to provide information themselves, so there is often no opportunity for clarification.
+
+    A question of liability and legal ramifications is also raised in that medical professionals may or may not have the responsibility to routinely perform a thorough search on the body for medical IDs.
+
+    Furthermore, if information from medical bracelets should routinely be followed, it is unclear what that means for other forms of information available on the body, such a tattoo stating DNR.
+
+    There is also no regulation or standardization, and there is no defined list of conditions, so diagnoses or information from a medical ID may not be reliable or convey the same meaning as they would to a medical professional.
+    <br><br>
+    One resolution to these issues that any information obtained through them should be considered the same as if it were obtained verbally from the patient or family and treated as an additional piece of information instead of a definitive truth or official medical record, but these questions limit these devices' usefulness.
+
+    <!-- Q: What kind of data can be stored on a wearable medical ID device? -->
+    <!-- A) Emergency phone contact numbers B) Patient identifiers (name/birthday/etc.) C) Medical diagnoses D) Special care precautions/instructions E) All of the above-->
+
+    <!-- Q: How can data be stored? [show examples]-->
+    <!-- A) QR code/barcode (readable by anything with a camera) B) RFID tags (readable by many devices, including smartphones and special scanners) C) Text printed on the device D) USB drive E) All of the above -->
+</div>
+<br><a href="#top" style="text-decoration:none; float:right"><u>Back to Top</u></a><br><hr>
+<div id="monitor">
+    <h2>Wearable Monitors</h2>
+
+    One category of wearable assistive devices is monitoring. This can consist of both monitoring of medical data and non-medical data.
+
+    Many wearable monitors are smartwatches or fitness trackers worn on the wrist.
+
+    There are also biosensors that can be attached to other parts of the skin with an adhesive and smart rings coming onto the market.
+
+    These may have more specialized monitoring purposes (such as a Holter monitor) or be more accurate for certain metrics based on location (i.e. chest strap for heart rate).
+    <br><br>
+    <figure style="margin: auto;">
+        <img src="images/smartwatch-ownership.png" width="100%">
+        <figcaption>
+            <small>
+                Data from 2022 <a href="https://datareportal.com/reports/digital-2023-deep-dive-the-rise-of-wearables?rq=smartwatch">survey</a> showing smartwatch ownership among internet users by age group with reasonable uptake among all surveyed age groups.<sup>4</sup>
+            </small>
+        </figcaption>
+    </figure>
+    <br><br>
+
+    Non-medical use cases can be as simple as a GPS-enabled device that can help family members and friends keep track of their loved ones, such as for patients with cognitive decline and who are at risk of getting lost.
+
+    <br><br>
+
+    For individuals who are hard of hearing, some devices (including smartphones and some smartwatches) have sound detection features to provide tactile notifications when an alarm (such as a cooking alarm or smoke alarm) goes off.
+
+    <h4>Case Study</h4>
+    The Apple Watch (and other similar smartwatches) is a one example of a smartwatch that has reached considerable adoption.
+
+    The Apple Watch has capabilities for vital signs monitoring (other than blood pressure)<label for="sn-awo2" class="sidenote-toggle"><sup>*</sup></label>, can track sleep, and comes in models with a built-in GPS.
+
+    The included accelerometer also has car crash and fall detection.
+
+    In more vulnerable populations or populations with less technological literacy, permission can be granted for medical professionals or caregivers/loved ones to have access.
+
+    This can help reduce the need for a caregiver constantly at the patient's side.
+
+    <br><br>
+
+    The Apple Watch's monitoring accuracy has also been tested in several studies.
+
+    In a <a href="https://link.springer.com/article/10.1007/s11845-023-03456-w">study</a> on hypoxic patients with COPD exacerbations, when compared to the gold standard (arterial blood gas measurements) the Apple Watch 6's pulse oximetry readings had a mean error of 0.458%.<sup>5</sup>
+    Based on the mean error associated with standard pulse oximetry (1.015% as reported in the same study), the authors concluded that the Apple Watch was more accurate.
+
+    In another similar <a href="https://www.nature.com/articles/s41598-021-98453-3">study</a> on patients with lung disease, both heart rate and oxygen saturation measurements from the Apple Watch were strongly correlated with gold standard measurements.<sup>6</sup>
+    <br><br>
+
+    Apple Watch's EKG feature has also been validated for at least several of the most common arrhythmias.<br><br>
+
+    <figure style="margin: auto;">
+        <img src="images/apple watch ekg.gif" width="40%">
+        <figcaption>
+            <small>
+                Apple Watch EKG interface.
+            </small>
+        </figcaption>
+    </figure>
+    <br>
+
+    One group <a href="https://doi.org/10.1016/j.ajem.2024.01.046">evaluated</a> both the Apple Watch's built-in atrial fibrillation detection accuracy and the ability of a trained clinician to use the generated EKG to diagnose an arrhythmia.<sup>7</sup>
+
+    They found that the Apple Watch produced EKG tracings that were >90% sensitive for diagnosing normal sinus rhythm, atrial fibrillation, sinus tachycardia, sinus bradycardia, and supraventricular tachycardia.<label for="sn-awo2" class="sidenote-toggle"><sup>*</sup></label>
+
+    <input type="checkbox" id="sn-awo2" class="sidenote-toggle" />
+    <span class="sidenote">
+        For ST-segment depression, wide QRS complexes, premature atrial/ventricular depolarizations, sensitivity was around 80% or limited by sample size.
+    </span>
+</div>
+<br><a href="#top" style="text-decoration:none; float:right"><u>Back to Top</u></a><br><hr>
+
+<div id="falls">
+    <h2>Devices in Practice: Falls</h2>
+
+    Falls are an example of a situation where several types of wearable assistive devices can be helpful in preventing harm.
+
+    More than a quarter of all adults over the age of 65 report falling at least once in the past year.<sup>8</sup>
+
+    Fear of falling can lead to loss of independence and reduced mobility in older adults.
+
+    <h4>Fall Detection</h4>
+
+    One issue leading to morbidity in patients who suffer from falls is time spent down.
+
+    Patients may lose consciousness before or after a fall, lack the strength to pick themselves up after the fall, or have no way of calling for help.
+
+    Prolonged time on the floor after a fall can result in serious medical complications, such as rhabdomyolysis.
+
+    Fear of falls, and not knowing if help will be accessible, can lead older adults to reduce physical activity and lose independence.
+
+    <br><br>
+    Since wearable devices move with the person, they have access to data about the wearer's position in space and can compute movement speeds/acceleration/higher derivatives.
+
+    Assuming that the body moves differently when falling, predictive algorithms can be trained to recognize what pattern of motions correspond to falls.<sup>9</sup>
+    <br><br>
+    <figure style="margin: auto;">
+        <img src="images/fig8-falldetection.jpg" width="80%">
+        <figcaption>
+            <small>
+                Figure from <a href="https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2022.996021/full">review paper</a> on fall detection algorithms based on accelerometer data.
+
+                Overall, various algorithms have at least >75% sensitivity and specificity for fall detection, but the authors note that it is hard to obtain a genuine dataset of falls, especially in older adults.
+            </small>
+        </figcaption>
+    </figure><br>
+
+    Even if imperfect, fall detection via wearable device can be an added layer to reduce the quantity of falls that go undiscovered.
+
+    A 2021 <a href="https://doi.org/10.1093/gerona/glab174">case study</a> of implementing fall detection sensors in among hospitalized patients found that challenges included adherence (enrolled patients wore the sensor for only ~50% of the time) and additional nursing staff work from false alarms.<sup>10</sup>
+
+    They also found that there was no increased incidence of delirium in patients wearing the sensors as well.
+
+    <h4>Harm Reduction/Prevention</h4>
+
+    Many monitors with fall detection capabilities, such as a bracelet/smart-watch (which often already has fall detection capabilities), are able to contact emergency contacts and/or emergency services both when a fall is detected or with the push of a button, potentially reducing time spent down after a fall.
+
+    Even a lower-tech device that can only call EMS (a medical alert device) has a use case as well where an at-risk person has fallen and is unable to get up on their own but remains conscious.
+    <br><br>
+    There are also some wearable devices that are specifically aimed at reducing the physical impact of falls.
+
+    <br><br>
+    <figure style="margin: auto;">
+        <img src="images/hip-protectors.webp" width="40%">
+        <figcaption>
+            <small>
+                Figure of various commercially available hip pads from <a href="https://doi.org/10.1016%2Fj.jbiomech.2011.08.016">paper</a> on mechanical properties of hip pads.<sup>11</sup> They can make patients several inches wider at the hips.
+
+            </small>
+        </figcaption>
+    </figure><br>
+    Hip pads have been investigated in several studies, many of which finding that patients assigned to wear them did not have significant differences in fracture rate.<label for="sn-fall1" class="sidenote-toggle"><sup>12</sup></label>
+    <label for="sn-fall1" class="sidenote-toggle"><sup>*</sup></label>
+    <input type="checkbox" id="sn-fall1" class="sidenote-toggle" />
+    <span class="sidenote">
+        This <a href="https://link.springer.com/article/10.1007/s00223-015-0002-9">review</a> also came to the recommendation that patients at highest risk for hip fracture, such as those in nursing homes, where there is a better ability to monitor and enforce use, may be well suited for increased use.
+    </span>
+    In those studies, compliance was implicated, as they were often only worn sporadically or removed for comfort.
+
+    Patients with cognitive impairment and dementia who may be most at risk for hip fractures were found to also be most likely to have poor compliance with hip pads.
+
+    Some studies with better compliance did find significant decreases in hip fracture rate, such as one conducted in a Japanese nursing home where hip pad wearers had a 0.8% hip fracture rate per fall compared to a 8.2% hip fracture rate in the non-wearer control group.<label for="sn-fall2" class="sidenote-toggle"><sup>13</sup></label>
+    <label for="sn-fall2" class="sidenote-toggle"><sup>*</sup></label>
+    <input type="checkbox" id="sn-fall2" class="sidenote-toggle" />
+    <span class="sidenote">
+        The Japanese nursing home <a href="https://link.springer.com/article/10.1007/s001980170132">study</a> is limited by the fact that they only had three hip fractures during the study period, but the 8% hip fracture rate per fall in the control group is similar to the statistic that 10-15% of falls lead to fractures.
+    </span>
+
+    Another issue brought up was potential impact on quality of life, given bulkiness of hip pads and potential shame/distress from having to wear them.
+
+
+    <!-- Q: What is the approximate fall risk per year in adults over the age of 65? -->
+    <!-- A: 1% B: 5% C: 10% [D: 25%] E: 80%-->
+
+
+</div>
+<br><a href="#top" style="text-decoration:none; float:right"><u>Back to Top</u></a><br><hr>
+<div id="summary">
+    <h2>Summary</h2>
+    Overview
+    <ul>
+        <li>Assistive technology: any object/software that helps somebody perform a task</li>
+        <li>Wearables: devices that can be worn on the body for a part of or the whole day</li>
+        <li>Use of wearables may be limited by cost, difficulty to learn, discomfort, accuracy/reliability, and regulatory requirements</li>
+    </ul>
+
+    Medical IDs
+    <ul>
+        <li>Wearables that help identify patients and provide key medical information are affordable and can be helpful when a patient is unable to provide information on their own and collateral information is unavailable</li>
+        <li>Sometimes medical ID wristbands/necklaces come with buttons to press to call an emergency contact or emergency services</li>
+        <li>Lack of regulation around terminology and potential liability pose challenges for clinical use</li>
+    </ul>
+
+    Smart Monitors
+    <ul>
+        <li>Wearable sensors can transcutaneously measure/estimate vital signs such as heart rate, and oxygen saturation</li>
+        <li>Many smartwatches or fitness bands come with built-in biosensors and functionality to alert emergency contacts or emergency services</li>
+        <li>Some devices have audio support to provide tactile notifications when alarms go off for individuals who are hard of hearing</li>
+        <li>Wearable sensors vary in accuracy and reliability</li>
+        <li>Apple Watch technology has been validated for accuracy in heart rate, oxygen saturation, and EKG tracing diagnostic ability in several populations</li>
+    </ul>
+
+    Falls
+    <ul>
+        <li>Falls are very common in older adults (estimated at >25% incidence per year)</li>
+        <li>Fear of falls can lead to loss of independence and reduced physical activity</li>
+        <li>Prolonged time down is associated with complications like rhabdomyolysis</li>
+        <li>Wearable smartwatches or dedicated fall detection devices can identify falls and alert emergency contacts or emergency services with or without user input</li>
+        <li>Hip pads have been found to, with optimal use (close to 24/7), significantly reduce the risk of hip fracture in high risk patients, though ideal use is challenging to achieve</li>
+        <li>For patients at risk for falls but wish to continue living independently, wearable devices can help detect falls and reduce the negative impact of falls</li>
+    </ul>
+</div>
+<a href="#top" style="text-decoration:none; float:right"><u>Back to Top</u></a>
+<br>
+<div class="footnotes" id="ref">
+<h3>References</h3>
+    <ol>
+        <li>Madara Marasinghe K. Assistive technologies in reducing caregiver burden among informal caregivers of older adults: A systematic review. <i>Disability and Rehabilitation: Assistive Technology</i>. 2015;11(5):353-360. doi:<a href="https://doi.org/10.3109/17483107.2015.1087061">10.3109/17483107.2015.1087061</a></li>
+        <li>Canali S, Schiaffonati V, Aliverti A. Challenges and recommendations for wearable devices in digital health: Data quality, interoperability, health equity, fairness. <i>PLOS Digit Health</i>. 2022;1(10):e0000104. Published 2022 Oct 13. doi:<a href="https://doi.org/10.1371/journal.pdig.0000104">10.1371/journal.pdig.0000104</a></li>
+        <li>Rahman S, Walker D, and Sultan, P. Medical identification or alert jewellery: an opportunity to save lives or an unreliable hindrance?. <i>Anaesthesia</i>. 2017;72(9):1139-1145. doi:<a href="https://doi.org/10.1111/anae.13958">10.1111/anae.13958</a></li>
+        <li>Kemp S. The rise of Smartwatches - DataReportal – Global Digital Insights. DataReportal. January 28, 2023. Accessed February 20, 2024. <a href="https://datareportal.com/reports/digital-2023-deep-dive-the-rise-of-wearables?rq=smartwatch.">https://datareportal.com/reports/digital-2023-deep-dive-the-rise-of-wearables?rq=smartwatch.</a></li>
+        <li>Arslan B, Sener K, Guven R, et al. Accuracy of the Apple Watch in measuring oxygen saturation: Comparison with Pulse Oximetry and ABG. <i>Irish Journal of Medical Science</i>. 2023;193(1):477-483. doi:<a href="https://doi.org/10.1007/s11845-023-03456-w">10.1007/s11845-023-03456-w</a></li>
+        <li>Pipek LZ, Nascimento RF, Acencio MM, Teixeira LR. Comparison of spo2 and heart rate values on Apple Watch and conventional commercial oximeters devices in patients with lung disease. <i>Scientific Reports</i>. 2021;11(1). doi:<a href="https://doi.org/10.1038/s41598-021-98453-3">10.1038/s41598-021-98453-3</a> </li>
+        <li>Paslı S, Topçuoğlu H, Yılmaz M, Yadigaroğlu M, İmamoğlu M, Karaca Y. Diagnostic accuracy of Apple Watch ECG outputs in identifying dysrhythmias: A comparison with 12-lead ECG in emergency department. <i>The American Journal of Emergency Medicine</i>. 2024;79:25-32. doi:<a href="https://doi.org/10.1016/j.ajem.2024.01.046">10.1016/j.ajem.2024.01.046</a></li>
+        <li>Bergen G, Stevens MR, Burns ER. Falls and Fall Injuries Among Adults Aged ≥65 Years — United States, 2014. <i>MMWR Morb Mortal Wkly Rep</i>. 2016;65:993–998. doi:<a href="http://dx.doi.org/10.15585/mmwr.mm6537a2">10.15585/mmwr.mm6537a2</a></li>
+        <li>Stampfler T, Elgendi M, Fletcher RR, Menon C. Fall detection using accelerometer-based smartphones: Where do we go from here? <i>Frontiers in Public Health</i>. 2022;10. doi:<a href="https://doi.org/10.3389/fpubh.2022.996021">10.3389/fpubh.2022.996021</a></li>
+        <li>Visvanathan R, Ranasinghe DC, Lange K, et al. Effectiveness of the wearable sensor-based ambient intelligent geriatric management (ambigem) system in preventing falls in older people in Hospitals. <i>The Journals of Gerontology: Series A</i>. 2021;77(1):155-163. doi:<a href="https://doi.org/10.1093/gerona/glab174">10.1093/gerona/glab174</a></li>
+        <li>Laing AC, Feldman F, Jalili M, Tsai CM, Robinovitch SN. The effects of pad geometry and material properties on the biomechanical effectiveness of 26 commercially available hip protectors. <i>Journal of Biomechanics</i>. 2011;44(15):2627-2635. doi:<a href="https://doi.org/10.1016/j.jbiomech.2011.08.016">10.1016/j.jbiomech.2011.08.016</a></li>
+        <li>Cianferotti L, Fossi C, Brandi ML. Hip protectors: Are they worth it? Calcified Tissue International. 2015;97(1):1-11. doi:<a href="https://doi.org/10.1007/s00223-015-0002-9">10.1007/s00223-015-0002-9</a></li>
+        <li>Harada A, Mizuno M, Takemura M, Tokuda H, Okuizumi H, Niino N. Hip fracture prevention trial using hip protectors in Japanese nursing homes. Osteoporosis International. 2001;12(3):215-221. doi:<a href="https://doi.org/10.1007/s001980170132">10.1007/s001980170132</a></li>
+    </ol>
+</div>
+
+<br>
+
+<a href="#top" style="text-decoration:none; float:right"><u>Back to Top</u></a>
+</body>
+
+</html>
